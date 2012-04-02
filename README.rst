@@ -1,4 +1,4 @@
-Example showing how to add new roles and permsiiosn in Plone
+Example showing how to add new roles and permission in Plone
 
 It also shows/describes the problems.
 
@@ -10,9 +10,14 @@ It also shows/describes the problems.
 - go to front-page and give ``newuser`` role ``New Role``,
 - go to ``[...]front-page/manage_reportUserPermissions?user=newuser``
 
-For me it does not show the ``Newpermission: Test Permission`` for ``newuser``.
+For me it does not show the ``Newpermission: Test Permission`` for ``newuser``. 
+Role
+``New Role`` was applied correctly.
+
+In ZMI ``manage_access`` it's selected on portal-root, while it does not show i
+up for front-page.
+
 But it shows it for ``admin`` user.
-And in ZMI it's selected on portal-root, while it does not show up for front-page.
 
 So whats wrong?
 
