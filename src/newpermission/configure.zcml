@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+           i18n_domain="NewPermission">
+
+    <genericsetup:registerProfile 
+        name="default"
+        title="New Permission"
+        directory="profile"
+        description="Extension profile for New Permission."
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+    />           
+   
+    <permission 
+        id="newpermission.testpermission"
+        title="Newpermission: Test Permission"
+     />
+     
+</configure>
