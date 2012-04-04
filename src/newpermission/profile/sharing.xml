@@ -1,7 +1,7 @@
 <sharing xmlns:i18n="http://xml.zope.org/namespaces/i18n" 
          i18n:domain="NewPermission">
     <role
-        id="New Role"
+        id="NewRole"
         title="Can have new role"
         permission="Manage portal"
         i18n:attributes="title"
